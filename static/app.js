@@ -24,6 +24,7 @@ const I18N = {
         bboxCount: '{0} bbox',
         idCount: '{0} ID',
         alreadyProcessed: 'PDF này đã có dữ liệu bbox + ID.',
+        changeBtn: 'Thay đổi',
         deleteBtn: 'Xóa dữ liệu',
         deleteConfirm: 'Bạn có chắc muốn xóa toàn bộ dữ liệu của PDF này?',
         deleteWarning: 'Hành động này không thể hoàn tác!',
@@ -73,6 +74,7 @@ const I18N = {
         bboxCount: '{0} bbox',
         idCount: '{0} IDs',
         alreadyProcessed: 'This PDF already has bbox + ID data.',
+        changeBtn: 'Change',
         deleteBtn: 'Delete data',
         deleteConfirm: 'Are you sure you want to delete all data for this PDF?',
         deleteWarning: 'This action cannot be undone!',
@@ -117,6 +119,7 @@ const I18N = {
         bboxCount: '{0} bbox',
         idCount: '{0} ID',
         alreadyProcessed: 'Ce PDF possède déjà des données bbox + ID.',
+        changeBtn: 'Changer',
         deleteBtn: 'Supprimer les données',
         deleteConfirm: 'Êtes-vous sûr de vouloir supprimer toutes les données de ce PDF ?',
         deleteWarning: 'Cette action est irréversible !',
@@ -438,6 +441,11 @@ function preparePdfA(file) {
         </div>
     `;
     if (window.lucide) lucide.createIcons();
+
+    // Nút thay đổi
+    const actionsEl = $('#pdf-a-actions');
+    actionsEl.innerHTML = `<button class="btn btn-secondary btn-sm" id="btn-change-a">${t('changeBtn')}</button>`;
+    $('#btn-change-a').addEventListener('click', changePdfA);
     
     // Enable run button if PDF B files are also present
     const runBtn = $('#btn-run-pipeline');
@@ -446,6 +454,26 @@ function preparePdfA(file) {
     // Thu gọn khu vực chọn/upload
     $('#pdf-a-mode').classList.add('hidden');
     $('#upload-a-section').classList.add('hidden');
+}
+
+function changePdfA() {
+    state.pdfAName = null;
+    state.pdfAFile = null;
+    state.pdfAReady = false;
+
+    $('#pdf-a-status').innerHTML = '';
+    $('#pdf-a-actions').innerHTML = '';
+    $('#pdf-a-mode').classList.remove('hidden');
+    $('#upload-a-section').classList.add('hidden');
+    $('#existing-a-section').classList.remove('hidden');
+
+    const fileAInput = $('#file-a-input');
+    if (fileAInput) fileAInput.value = '';
+
+    $('#btn-run-pipeline').disabled = true;
+    loadProcessedPdfs();
+    document.getElementById('modeExisting').checked = true;
+    if (window.lucide) lucide.createIcons();
 }
 
 async function handlePdfAUpload() {
@@ -540,11 +568,13 @@ function showPdfAStatus(data, previewUrl = null) {
     $('#upload-a-section').classList.add('hidden');
     $('#existing-a-section').classList.add('hidden');
 
-    // Delete button
+    // Nút Thay đổi + Xóa dữ liệu
     const actionsEl = $('#pdf-a-actions');
     actionsEl.innerHTML = `
+        <button class="btn btn-secondary btn-sm" id="btn-change-a">${t('changeBtn')}</button>
         <button class="btn btn-danger btn-sm" id="btn-delete-a">${t('deleteBtn')}</button>
     `;
+    $('#btn-change-a').addEventListener('click', changePdfA);
     $('#btn-delete-a').addEventListener('click', () => showDeleteDialog());
 }
 
