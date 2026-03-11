@@ -39,6 +39,7 @@ from step5 import step5_find_matching_ids, extract_id_from_filename
 from step6 import step6_compare_with_gpt
 from step6_gemini import step6_compare_with_gemini
 from step7_pymupdf import step7_highlight_pdf_b
+from mode2_annotations import compare_mode2, get_openai_client as mode2_get_client
 
 # === App setup ===
 app = FastAPI(title="PDF Comparison Tool", version="2.0")
@@ -741,6 +742,98 @@ async def delete_session(session_id: str):
     """Cleanup a session workspace."""
     cleanup_session(session_id)
     return {"status": "cleaned", "session_id": session_id}
+
+
+# === Mode 2: PDF Annotations comparison (OpenAI Vision) ===
+
+@app.get("/mode2", response_class=HTMLResponse)
+async def serve_mode2():
+    """Serve Mode 2 UI: compare PDF annotations via OpenAI Vision."""
+    index_path = STATIC_DIR / "mode2" / "index.html"
+    if not index_path.exists():
+        raise HTTPException(404, "Mode 2 frontend not found")
+    return index_path.read_text(encoding="utf-8")
+
+
+@app.post("/api/mode2/compare")
+async def api_mode2_compare(
+    ref_pdf: UploadFile = File(...),
+    final_pdf: UploadFile = File(...),
+    model: Optional[str] = Form(None),
+):
+    """Compare PDF annotations: ref vs final, return annotated PDF."""
+    if not ref_pdf.filename or not ref_pdf.filename.lower().endswith(".pdf"):
+        raise HTTPException(400, "ref_pdf must be a PDF file")
+    if not final_pdf.filename or not final_pdf.filename.lower().endswith(".pdf"):
+        raise HTTPException(400, "final_pdf must be a PDF file")
+
+    client = mode2_get_client()
+    if client is None:
+        raise HTTPException(
+            503,
+            "OpenAI API key not configured. Set MODE2_OPENAI_API_KEY or OPENAI_API_KEY in .env",
+        )
+
+    session_id = f"{datetime.now().strftime('%Y%m%d_%H%M%S')}_{uuid.uuid4().hex[:6]}"
+    mode2_dir = SESSIONS_DIR / session_id / "mode2"
+    mode2_dir.mkdir(parents=True, exist_ok=True)
+
+    ref_path = mode2_dir / "ref.pdf"
+    final_path = mode2_dir / "final.pdf"
+    ref_path.write_bytes(await ref_pdf.read())
+    final_path.write_bytes(await final_pdf.read())
+
+    output_path = mode2_dir / "output_mode2_diff.pdf"
+
+    try:
+        result = await asyncio.to_thread(
+            compare_mode2,
+            ref_pdf_path=str(ref_path),
+            final_pdf_path=str(final_path),
+            output_path=str(output_path),
+            model=model,
+        )
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    except Exception as e:
+        raise HTTPException(500, f"Mode 2 compare failed: {e}")
+
+    output_filename = output_path.name
+    return {
+        "session_id": session_id,
+        "output_file": output_filename,
+        "summary": result["summary"],
+        "results": result["results"],
+        "preprocessing": result.get("preprocessing", {}),
+        "view_url": f"/api/mode2/result/{session_id}/{output_filename}",
+        "download_url": f"/api/mode2/download/{session_id}/{output_filename}",
+    }
+
+
+@app.get("/api/mode2/result/{session_id}/{filename}")
+async def api_mode2_view_result(session_id: str, filename: str):
+    """View Mode 2 output PDF inline."""
+    file_path = SESSIONS_DIR / session_id / "mode2" / filename
+    if not file_path.exists():
+        raise HTTPException(404, "File not found")
+    return FileResponse(
+        path=str(file_path),
+        media_type="application/pdf",
+        content_disposition_type="inline",
+    )
+
+
+@app.get("/api/mode2/download/{session_id}/{filename}")
+async def api_mode2_download_result(session_id: str, filename: str):
+    """Download Mode 2 output PDF."""
+    file_path = SESSIONS_DIR / session_id / "mode2" / filename
+    if not file_path.exists():
+        raise HTTPException(404, "File not found")
+    return FileResponse(
+        path=str(file_path),
+        filename=filename,
+        media_type="application/pdf",
+    )
 
 
 if __name__ == "__main__":

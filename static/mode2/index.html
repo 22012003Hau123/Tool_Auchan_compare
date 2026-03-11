@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode 2 - So sánh PDF Annotations</title>
+    <meta name="description" content="Kiểm tra popup annotations đã được thực thi trong PDF final bằng OpenAI Vision">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📄</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/mode2/style.css">
+</head>
+<body>
+    <div class="mode2-container">
+        <header class="mode2-header">
+            <a href="/" class="mode2-back">← Quay lại</a>
+            <h1>Mode 2: So sánh PDF Annotations</h1>
+            <p class="mode2-desc">Upload PDF Reference (có annotations) và PDF Final. AI sẽ kiểm tra annotations đã được thực thi.</p>
+        </header>
+
+        <section class="mode2-upload">
+            <div class="mode2-upload-group">
+                <label>PDF Reference (có popup/annotations)</label>
+                <input type="file" id="refPdf" accept=".pdf" />
+                <div class="mode2-preview-wrap">
+                    <iframe id="previewRef" title="Preview Reference PDF" src="about:blank"></iframe>
+                </div>
+            </div>
+            <div class="mode2-upload-group">
+                <label>PDF Final</label>
+                <input type="file" id="finalPdf" accept=".pdf" />
+                <div class="mode2-preview-wrap">
+                    <iframe id="previewFinal" title="Preview Final PDF" src="about:blank"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="mode2-actions">
+            <button type="button" id="btnCompare" class="mode2-btn" disabled>Chạy so sánh</button>
+        </section>
+
+        <section class="mode2-status" id="status" hidden>
+            <span id="statusText"></span>
+        </section>
+
+        <section class="mode2-result" id="result" hidden>
+            <h2>Kết quả</h2>
+            <div class="mode2-summary" id="summary"></div>
+            <div class="mode2-links">
+                <a id="linkView" href="#" target="_blank" rel="noopener">Mở tab mới</a>
+                <a id="linkDownload" href="#" download>Tải PDF</a>
+            </div>
+            <div class="mode2-pdf-view">
+                <h3>Xem PDF</h3>
+                <iframe id="pdfViewer" title="PDF kết quả" src="about:blank"></iframe>
+            </div>
+        </section>
+
+        <section class="mode2-error" id="error" hidden>
+            <p id="errorText"></p>
+        </section>
+    </div>
+    <script src="/static/mode2/app.js"></script>
+</body>
+</html>

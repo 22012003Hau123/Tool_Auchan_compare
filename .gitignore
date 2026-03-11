@@ -1,7 +1,7 @@
 # AI Models (Large files)
 models/
 *.pt
-
+poppler-25.11.0/
 # Data and Workspaces
 sessions/
 output/
