@@ -283,11 +283,11 @@ function renderApp() {
                         <div class="radio-group">
                             <div class="radio-option">
                                 <input type="radio" name="aiModel" id="aiOpenAI" value="OpenAI GPT" checked>
-                                <label for="aiOpenAI">GPT-4.1</label>
+                                <label for="aiOpenAI">GPT</label>
                             </div>
                             <div class="radio-option">
                                 <input type="radio" name="aiModel" id="aiGemini" value="Google Gemini">
-                                <label for="aiGemini">Gemini 2.5</label>
+                                <label for="aiGemini">Gemini</label>
                             </div>
                         </div>
                     </div>
