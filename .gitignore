@@ -9,7 +9,7 @@ pdfs_a/
 bbox/
 id/
 runs/
-
+training/
 # Environment and Secrets
 .env
 .venv/
