@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+ultralytics
+pdf2image
+Pillow
+langchain-openai
+langchain-google-genai
+langchain-core
+openai
+pymupdf
+pytesseract
+python-dotenv
+opencv-python-headless
+requests
+easyocr

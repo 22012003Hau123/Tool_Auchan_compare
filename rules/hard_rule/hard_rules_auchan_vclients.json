@@ -1,0 +1,3857 @@
+{
+  "metadata": {
+    "charte_name": "Auchan - Charte tract - vClients",
+    "charte_version": "Juin 2024",
+    "language": "fr",
+    "generated_at": "2026-03-20",
+    "coverage": {
+      "total_hard_rules": 156,
+      "status": "draft"
+    }
+  },
+  "rules": [
+    {
+      "rule_id": "HR-COLOR-001",
+      "title_fr": "Vert charte primaire",
+      "title_vi": "Xanh lá chủ đạo",
+      "title_en": "Primary chartreuse green",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#67B346",
+        "rgb": [
+          103,
+          179,
+          70
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Vert RVB : 103 • 179 • 70 #67B346"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Vert charte primaire"
+    },
+    {
+      "rule_id": "HR-COLOR-002",
+      "title_fr": "Orange charte secondaire",
+      "title_vi": "Cam phụ",
+      "title_en": "Secondary orange",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FF8500",
+        "rgb": [
+          255,
+          133,
+          0
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Orange RVB : 255 • 133 • 0 #FF8500"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Orange charte secondaire"
+    },
+    {
+      "rule_id": "HR-COLOR-003",
+      "title_fr": "Marron charte",
+      "title_vi": "Nâu charte",
+      "title_en": "Charte brown",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#A7552D",
+        "rgb": [
+          167,
+          85,
+          45
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Marron RVB : 167 • 85 • 45 #A7552D"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Marron charte"
+    },
+    {
+      "rule_id": "HR-COLOR-004",
+      "title_fr": "Rouge Auchan",
+      "title_vi": "Đỏ Auchan",
+      "title_en": "Auchan red",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E0001A",
+        "rgb": [
+          224,
+          0,
+          26
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Rouge RVB : 224 • 0 • 26 #E0001A"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Rouge Auchan"
+    },
+    {
+      "rule_id": "HR-COLOR-005",
+      "title_fr": "Jaune charte",
+      "title_vi": "Vàng charte",
+      "title_en": "Charte yellow",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F5A800",
+        "rgb": [
+          245,
+          168,
+          0
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Jaune RVB : 245 • 168 • 0 #F5A800"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Jaune charte"
+    },
+    {
+      "rule_id": "HR-COLOR-006",
+      "title_fr": "Rose charte",
+      "title_vi": "Hồng charte",
+      "title_en": "Charte pink",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#ED6EA7",
+        "rgb": [
+          237,
+          110,
+          167
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Rose RVB : 237 • 110 • 167 #ED6EA7"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Rose charte"
+    },
+    {
+      "rule_id": "HR-COLOR-007",
+      "title_fr": "Turquoise charte",
+      "title_vi": "Ngọc lam charte",
+      "title_en": "Charte turquoise",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#64C2C8",
+        "rgb": [
+          100,
+          194,
+          200
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Turquoise RVB : 100 • 194 • 200 #64C2C8"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Turquoise charte"
+    },
+    {
+      "rule_id": "HR-COLOR-008",
+      "title_fr": "Bleu foncé charte",
+      "title_vi": "Xanh đậm charte",
+      "title_en": "Charte dark blue",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#012169",
+        "rgb": [
+          1,
+          33,
+          105
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "RVB : 1 • 33 • 105 #012169"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Bleu foncé charte"
+    },
+    {
+      "rule_id": "HR-COLOR-009",
+      "title_fr": "Noir charte",
+      "title_vi": "Đen charte",
+      "title_en": "Charte black",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Noir RVB : 0 • 0 • 0"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Noir charte"
+    },
+    {
+      "rule_id": "HR-COLOR-010",
+      "title_fr": "Blanc charte",
+      "title_vi": "Trắng charte",
+      "title_en": "Charte white",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Blanc RVB : 255 • 255 • 255"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Blanc charte"
+    },
+    {
+      "rule_id": "HR-COLOR-011",
+      "title_fr": "Gris neutre charte",
+      "title_vi": "Xám trung tính charte",
+      "title_en": "Charte neutral grey",
+      "type": "color",
+      "severity": "major",
+      "scope": "global_palette",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#7F7F7F",
+        "rgb": [
+          127,
+          127,
+          127
+        ]
+      },
+      "source": {
+        "page": 7,
+        "quote": "Gris neutre"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "price_main",
+        "product_image",
+        "product_name",
+        "promo_badge"
+      ],
+      "title": "Gris neutre charte"
+    },
+    {
+      "rule_id": "HR-COLOR-012",
+      "title_fr": "Promos quotidien - bombe générique",
+      "title_vi": "Khuyến mãi hàng ngày - bombe chung",
+      "title_en": "Daily promos - generic bomb",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "promos_quotidien_bombe_generique",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E5B08F",
+        "rgb": [
+          229,
+          176,
+          143
+        ],
+        "fixed": true
+      },
+      "source": {
+        "page": 92,
+        "quote": "Cette teinte est fixe et ne peut-être, en aucun cas, modifiée."
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Promos quotidien - bombe générique"
+    },
+    {
+      "rule_id": "HR-COLOR-013",
+      "title_fr": "Promos semaine - bombe",
+      "title_vi": "Khuyến mãi tuần - bombe",
+      "title_en": "Weekly promos - bomb",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "promos_semaine",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E5B08F",
+        "rgb": [
+          229,
+          176,
+          143
+        ]
+      },
+      "source": {
+        "page": 98,
+        "quote": "Bombe Promos Semaine"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Promos semaine - bombe"
+    },
+    {
+      "rule_id": "HR-COLOR-014",
+      "title_fr": "Promos quotidien + Waaoh couplé - case bleue",
+      "title_vi": "Promos hàng ngày + Waaoh kèm - ô xanh",
+      "title_en": "Daily promos + Waaoh combined - blue case",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "promos_quotidien_waaoh_couple",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#D1E6F9",
+        "rgb": [
+          209,
+          230,
+          249
+        ]
+      },
+      "source": {
+        "page": 92,
+        "quote": "Il faudra dans ce cas, utiliser une case bleue."
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Promos quotidien + Waaoh couplé - case bleue"
+    },
+    {
+      "rule_id": "HR-COLOR-015",
+      "title_fr": "Bio - fond kraft obligatoire",
+      "title_vi": "Bio - nền kraft bắt buộc",
+      "title_en": "Bio - kraft background mandatory",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "promos_quotidien_bombe_bio",
+      "check_method": "visual",
+      "constraint": {
+        "background": "kraft",
+        "fixed": true
+      },
+      "source": {
+        "page": 104,
+        "quote": "sera, en toutes circonstances, un fond kraft."
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Bio - fond kraft obligatoire"
+    },
+    {
+      "rule_id": "HR-COLOR-016",
+      "title_fr": "Bio - couleur bombe",
+      "title_vi": "Bio - màu bombe",
+      "title_en": "Bio - bomb color",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_bio",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#8B9B5A",
+        "rgb": [
+          139,
+          155,
+          90
+        ]
+      },
+      "source": {
+        "page": 104,
+        "quote": "Bio - couleur bombe #8B9B5A"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Bio - couleur bombe"
+    },
+    {
+      "rule_id": "HR-COLOR-017",
+      "title_fr": "Bio - fond page",
+      "title_vi": "Bio - nền trang",
+      "title_en": "Bio - page background",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_bio",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E8EDD8",
+        "rgb": [
+          232,
+          237,
+          216
+        ]
+      },
+      "source": {
+        "page": 104,
+        "quote": "Bio fond page #E8EDD8"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Bio - fond page"
+    },
+    {
+      "rule_id": "HR-COLOR-018",
+      "title_fr": "Produits français - couleur principale",
+      "title_vi": "Sản phẩm Pháp - màu chính",
+      "title_en": "French products - main color",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "rubrique_selection_produits_francais",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#29549D",
+        "rgb": [
+          41,
+          84,
+          157
+        ]
+      },
+      "source": {
+        "page": 110,
+        "quote": "Couleur principale ... #29549D"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "promo_badge"
+      ],
+      "title": "Produits français - couleur principale"
+    },
+    {
+      "rule_id": "HR-COLOR-019",
+      "title_fr": "Produits français - case bombe",
+      "title_vi": "Sản phẩm Pháp - ô bombe",
+      "title_en": "French products - bomb case",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_selection_produits_francais",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#6C98D0",
+        "rgb": [
+          108,
+          152,
+          208
+        ]
+      },
+      "source": {
+        "page": 110,
+        "quote": "Case produit bombe ... #6C98D0"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Produits français - case bombe"
+    },
+    {
+      "rule_id": "HR-COLOR-020",
+      "title_fr": "Produits français - fond page",
+      "title_vi": "Sản phẩm Pháp - nền trang",
+      "title_en": "French products - page background",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_selection_produits_francais",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E1E8F6",
+        "rgb": [
+          225,
+          232,
+          246
+        ]
+      },
+      "source": {
+        "page": 110,
+        "quote": "Fond de page ... #E1E8F6"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Produits français - fond page"
+    },
+    {
+      "rule_id": "HR-COLOR-021",
+      "title_fr": "Cultivons le bon - couleur principale",
+      "title_vi": "Cultivons le bon - màu chính",
+      "title_en": "Cultivons le bon - main color",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "rubrique_cultivons_le_bon",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#369D48",
+        "rgb": [
+          54,
+          157,
+          72
+        ]
+      },
+      "source": {
+        "page": 116,
+        "quote": "Couleur principale ... #369D48"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "promo_badge"
+      ],
+      "title": "Cultivons le bon - couleur principale"
+    },
+    {
+      "rule_id": "HR-COLOR-022",
+      "title_fr": "Cultivons le bon - couleur secondaire",
+      "title_vi": "Cultivons le bon - màu phụ",
+      "title_en": "Cultivons le bon - secondary color",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_cultivons_le_bon",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#00A1DF",
+        "rgb": [
+          0,
+          161,
+          223
+        ]
+      },
+      "source": {
+        "page": 116,
+        "quote": "Couleur secondaire ... #00A1DF"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Cultivons le bon - couleur secondaire"
+    },
+    {
+      "rule_id": "HR-COLOR-023",
+      "title_fr": "Cultivons le bon - fond page",
+      "title_vi": "Cultivons le bon - nền trang",
+      "title_en": "Cultivons le bon - page background",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_cultivons_le_bon",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#DDECD9",
+        "rgb": [
+          221,
+          236,
+          217
+        ]
+      },
+      "source": {
+        "page": 116,
+        "quote": "Fond de page ... #DDECD9"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Cultivons le bon - fond page"
+    },
+    {
+      "rule_id": "HR-COLOR-024",
+      "title_fr": "Cultivons le bon - case bombe",
+      "title_vi": "Cultivons le bon - ô bombe",
+      "title_en": "Cultivons le bon - bomb case",
+      "type": "color",
+      "severity": "major",
+      "scope": "rubrique_cultivons_le_bon",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#8CC585",
+        "rgb": [
+          140,
+          197,
+          133
+        ]
+      },
+      "source": {
+        "page": 116,
+        "quote": "Case produit bombe ... #8CC585"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Cultivons le bon - case bombe"
+    },
+    {
+      "rule_id": "HR-COLOR-025",
+      "title_fr": "Marchés - Fruits et légumes",
+      "title_vi": "Chợ - Rau quả",
+      "title_en": "Markets - Fruits and vegetables",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_fruits_legumes",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#A8C698",
+        "rgb": [
+          168,
+          198,
+          152
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Fruits et légumes ... #A8C698"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Fruits et légumes"
+    },
+    {
+      "rule_id": "HR-COLOR-026",
+      "title_fr": "Marchés - Boucherie/Rôtisserie/Charcuterie",
+      "title_vi": "Chợ - Thịt/Nướng/Charcuterie",
+      "title_en": "Markets - Butchery/Roast/Charcuterie",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_boucherie_rotisserie_charcuterie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#D39A9A",
+        "rgb": [
+          211,
+          154,
+          154
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Boucherie Rôtisserie Charcuterie ... #D39A9A"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Boucherie/Rôtisserie/Charcuterie"
+    },
+    {
+      "rule_id": "HR-COLOR-027",
+      "title_fr": "Marchés - Fromagerie",
+      "title_vi": "Chợ - Phô mai",
+      "title_en": "Markets - Cheese",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_fromagerie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#DBB98D",
+        "rgb": [
+          219,
+          185,
+          141
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Fromagerie ... #DBB98D"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Fromagerie"
+    },
+    {
+      "rule_id": "HR-COLOR-028",
+      "title_fr": "Marchés - Boulangerie/Pâtisserie",
+      "title_vi": "Chợ - Bánh mì/Bánh ngọt",
+      "title_en": "Markets - Bakery/Pastry",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_boulangerie_patisserie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FDD08B",
+        "rgb": [
+          253,
+          208,
+          139
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Boulangerie Pâtisserie ... #FDD08B"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Boulangerie/Pâtisserie"
+    },
+    {
+      "rule_id": "HR-COLOR-029",
+      "title_fr": "Marchés - Traiteur",
+      "title_vi": "Chợ - Traiteur",
+      "title_en": "Markets - Delicatessen",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_traiteur",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#DAC9A9",
+        "rgb": [
+          218,
+          201,
+          169
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Traiteur ... #DAC9A9"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Traiteur"
+    },
+    {
+      "rule_id": "HR-COLOR-030",
+      "title_fr": "Marchés - Poissonnerie",
+      "title_vi": "Chợ - Hải sản",
+      "title_en": "Markets - Fishmonger",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_poissonnerie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#90B2D4",
+        "rgb": [
+          144,
+          178,
+          212
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Poissonnerie ... #90B2D4"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Poissonnerie"
+    },
+    {
+      "rule_id": "HR-COLOR-031",
+      "title_fr": "Marchés - Fleurs et plantes",
+      "title_vi": "Chợ - Hoa và cây",
+      "title_en": "Markets - Flowers and plants",
+      "type": "color",
+      "severity": "major",
+      "scope": "marches_fleurs_plantes",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F6B2A2",
+        "rgb": [
+          246,
+          178,
+          162
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Fleurs et plantes ... #F6B2A2"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Marchés - Fleurs et plantes"
+    },
+    {
+      "rule_id": "HR-COLOR-032",
+      "title_fr": "Rayon Épicerie",
+      "title_vi": "Gian hàng Tạp hóa",
+      "title_en": "Grocery department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_epicerie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E5B08F",
+        "rgb": [
+          229,
+          176,
+          143
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Épicerie bombe #E5B08F"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Épicerie"
+    },
+    {
+      "rule_id": "HR-COLOR-033",
+      "title_fr": "Rayon Boissons",
+      "title_vi": "Gian hàng Đồ uống",
+      "title_en": "Beverages department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_boissons",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#64C2C8",
+        "rgb": [
+          100,
+          194,
+          200
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Boissons #64C2C8"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Boissons"
+    },
+    {
+      "rule_id": "HR-COLOR-034",
+      "title_fr": "Rayon Hygiène/Beauté",
+      "title_vi": "Gian hàng Vệ sinh/Làm đẹp",
+      "title_en": "Hygiene/Beauty department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_hygiene_beaute",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#ED6EA7",
+        "rgb": [
+          237,
+          110,
+          167
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Hygiène Beauté #ED6EA7"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Hygiène/Beauté"
+    },
+    {
+      "rule_id": "HR-COLOR-035",
+      "title_fr": "Thématique Noël",
+      "title_vi": "Chủ đề Giáng sinh",
+      "title_en": "Christmas theme",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_noel",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E0001A",
+        "rgb": [
+          224,
+          0,
+          26
+        ]
+      },
+      "source": {
+        "page": 297,
+        "quote": "Noël - rouge Auchan"
+      },
+      "applicable_to": [
+        "background",
+        "brand_logo",
+        "promo_badge"
+      ],
+      "title": "Thématique Noël"
+    },
+    {
+      "rule_id": "HR-COLOR-036",
+      "title_fr": "Thématique Pâques",
+      "title_vi": "Chủ đề Phục sinh",
+      "title_en": "Easter theme",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_paques",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F5A800",
+        "rgb": [
+          245,
+          168,
+          0
+        ]
+      },
+      "source": {
+        "page": 298,
+        "quote": "Pâques - jaune charte"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Thématique Pâques"
+    },
+    {
+      "rule_id": "HR-COLOR-037",
+      "title_fr": "Thématique Rentrée",
+      "title_vi": "Chủ đề Khai trường",
+      "title_en": "Back to school theme",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_rentree",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#012169",
+        "rgb": [
+          1,
+          33,
+          105
+        ]
+      },
+      "source": {
+        "page": 299,
+        "quote": "Rentrée - bleu foncé"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Thématique Rentrée"
+    },
+    {
+      "rule_id": "HR-COLOR-038",
+      "title_fr": "Thématique Tartes - fond",
+      "title_vi": "Chủ đề Bánh tartes - nền",
+      "title_en": "Tartes theme - background",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_tartes",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FDD08B",
+        "rgb": [
+          253,
+          208,
+          139
+        ]
+      },
+      "source": {
+        "page": 213,
+        "quote": "Tartes - fond #FDD08B"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Thématique Tartes - fond"
+    },
+    {
+      "rule_id": "HR-COLOR-039",
+      "title_fr": "Thématique Pains - fond",
+      "title_vi": "Chủ đề Bánh mì - nền",
+      "title_en": "Bread theme - background",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_pains",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#DBB98D",
+        "rgb": [
+          219,
+          185,
+          141
+        ]
+      },
+      "source": {
+        "page": 214,
+        "quote": "Pains - fond #DBB98D"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Thématique Pains - fond"
+    },
+    {
+      "rule_id": "HR-COLOR-040",
+      "title_fr": "Prix principal - rouge Auchan",
+      "title_vi": "Giá chính - đỏ Auchan",
+      "title_en": "Main price - Auchan red",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "bloc_prix_principal",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E0001A",
+        "rgb": [
+          224,
+          0,
+          26
+        ]
+      },
+      "source": {
+        "page": 151,
+        "quote": "Prix en rouge Auchan #E0001A"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Prix principal - rouge Auchan"
+    },
+    {
+      "rule_id": "HR-COLOR-041",
+      "title_fr": "Prix barré - noir",
+      "title_vi": "Giá gạch - đen",
+      "title_en": "Strikethrough price - black",
+      "type": "color",
+      "severity": "major",
+      "scope": "bloc_prix_barre",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source": {
+        "page": 151,
+        "quote": "Prix barré en noir"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Prix barré - noir"
+    },
+    {
+      "rule_id": "HR-COLOR-042",
+      "title_fr": "Encart Waaoh - fond bleu",
+      "title_vi": "Encart Waaoh - nền xanh",
+      "title_en": "Waaoh insert - blue background",
+      "type": "color",
+      "severity": "major",
+      "scope": "encart_waaoh",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#D1E6F9",
+        "rgb": [
+          209,
+          230,
+          249
+        ]
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart Waaoh case bleue"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Encart Waaoh - fond bleu"
+    },
+    {
+      "rule_id": "HR-COLOR-043",
+      "title_fr": "Thématique Été - palette",
+      "title_vi": "Chủ đề Mùa hè - bảng màu",
+      "title_en": "Summer theme - palette",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_ete",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#64C2C8",
+        "rgb": [
+          100,
+          194,
+          200
+        ]
+      },
+      "source": {
+        "page": 300,
+        "quote": "Été - turquoise"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Thématique Été - palette"
+    },
+    {
+      "rule_id": "HR-COLOR-044",
+      "title_fr": "Thématique St-Valentin",
+      "title_vi": "Chủ đề Valentine",
+      "title_en": "Valentine theme",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_valentin",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#ED6EA7",
+        "rgb": [
+          237,
+          110,
+          167
+        ]
+      },
+      "source": {
+        "page": 297,
+        "quote": "St-Valentin rose"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Thématique St-Valentin"
+    },
+    {
+      "rule_id": "HR-COLOR-045",
+      "title_fr": "Rayon Bébé",
+      "title_vi": "Gian hàng Trẻ em",
+      "title_en": "Baby department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_bebe",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#ED6EA7",
+        "rgb": [
+          237,
+          110,
+          167
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Bébé #ED6EA7"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Bébé"
+    },
+    {
+      "rule_id": "HR-COLOR-046",
+      "title_fr": "Rayon Textile",
+      "title_vi": "Gian hàng Dệt may",
+      "title_en": "Textile department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_textile",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#A7552D",
+        "rgb": [
+          167,
+          85,
+          45
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Textile marron"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Textile"
+    },
+    {
+      "rule_id": "HR-COLOR-047",
+      "title_fr": "Rayon Électroménager",
+      "title_vi": "Gian hàng Điện gia dụng",
+      "title_en": "Home appliance department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_electromenager",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#012169",
+        "rgb": [
+          1,
+          33,
+          105
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Électroménager bleu foncé"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Électroménager"
+    },
+    {
+      "rule_id": "HR-COLOR-048",
+      "title_fr": "Rayon Bricolage",
+      "title_vi": "Gian hàng DIY",
+      "title_en": "DIY department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_bricolage",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#67B346",
+        "rgb": [
+          103,
+          179,
+          70
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Bricolage vert"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Bricolage"
+    },
+    {
+      "rule_id": "HR-COLOR-049",
+      "title_fr": "Rayon Auto/Moto",
+      "title_vi": "Gian hàng Ô tô/Xe máy",
+      "title_en": "Auto/Moto department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_auto",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#7F7F7F",
+        "rgb": [
+          127,
+          127,
+          127
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Auto gris"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Auto/Moto"
+    },
+    {
+      "rule_id": "HR-COLOR-050",
+      "title_fr": "Marchés - Couleur secondaire F&L",
+      "title_vi": "Chợ - Màu phụ Rau quả",
+      "title_en": "Markets - F&L secondary color",
+      "type": "color",
+      "severity": "minor",
+      "scope": "marches_fruits_legumes",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#C5D9B8",
+        "rgb": [
+          197,
+          217,
+          184
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "F&L secondaire"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marchés - Couleur secondaire F&L"
+    },
+    {
+      "rule_id": "HR-COLOR-051",
+      "title_fr": "Promo flash - fond",
+      "title_vi": "Khuyến mãi chớp - nền",
+      "title_en": "Flash promo - background",
+      "type": "color",
+      "severity": "major",
+      "scope": "promo_flash",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E0001A",
+        "rgb": [
+          224,
+          0,
+          26
+        ]
+      },
+      "source": {
+        "page": 92,
+        "quote": "Flash rouge Auchan"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Promo flash - fond"
+    },
+    {
+      "rule_id": "HR-COLOR-052",
+      "title_fr": "Encart standard - fond blanc",
+      "title_vi": "Encart chuẩn - nền trắng",
+      "title_en": "Standard insert - white background",
+      "type": "color",
+      "severity": "major",
+      "scope": "encart_standard",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ]
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart fond blanc"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Encart standard - fond blanc"
+    },
+    {
+      "rule_id": "HR-COLOR-053",
+      "title_fr": "Ligne de prix - séparation",
+      "title_vi": "Đường giá - phân tách",
+      "title_en": "Price line - separation",
+      "type": "color",
+      "severity": "minor",
+      "scope": "bloc_prix",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source": {
+        "page": 151,
+        "quote": "Ligne prix noir"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Ligne de prix - séparation"
+    },
+    {
+      "rule_id": "HR-COLOR-054",
+      "title_fr": "Vignette produit - bordure",
+      "title_vi": "Viên sản phẩm - viền",
+      "title_en": "Product vignette - border",
+      "type": "color",
+      "severity": "minor",
+      "scope": "case_produit",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "opacity": "optional"
+      },
+      "source": {
+        "page": 36,
+        "quote": "Bordure case optionnelle"
+      },
+      "applicable_to": [
+        "product_image",
+        "background"
+      ],
+      "title": "Vignette produit - bordure"
+    },
+    {
+      "rule_id": "HR-COLOR-055",
+      "title_fr": "Thématique Halloween",
+      "title_vi": "Chủ đề Halloween",
+      "title_en": "Halloween theme",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_halloween",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F5A800",
+        "rgb": [
+          245,
+          168,
+          0
+        ]
+      },
+      "source": {
+        "page": 301,
+        "quote": "Halloween jaune/orange"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Thématique Halloween"
+    },
+    {
+      "rule_id": "HR-COLOR-056",
+      "title_fr": "Thématique Nouvel An",
+      "title_vi": "Chủ đề Năm mới",
+      "title_en": "New Year theme",
+      "type": "color",
+      "severity": "major",
+      "scope": "thematiques_nouvel_an",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#012169",
+        "rgb": [
+          1,
+          33,
+          105
+        ]
+      },
+      "source": {
+        "page": 302,
+        "quote": "Nouvel An bleu"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Thématique Nouvel An"
+    },
+    {
+      "rule_id": "HR-COLOR-057",
+      "title_fr": "Label Bio - vert",
+      "title_vi": "Nhãn Bio - xanh",
+      "title_en": "Bio label - green",
+      "type": "color",
+      "severity": "major",
+      "scope": "label_bio",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#67B346",
+        "rgb": [
+          103,
+          179,
+          70
+        ]
+      },
+      "source": {
+        "page": 104,
+        "quote": "Label Bio vert charte"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Label Bio - vert"
+    },
+    {
+      "rule_id": "HR-COLOR-058",
+      "title_fr": "Label origine France",
+      "title_vi": "Nhãn xuất xứ Pháp",
+      "title_en": "Origin France label",
+      "type": "color",
+      "severity": "major",
+      "scope": "label_france",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#29549D",
+        "rgb": [
+          41,
+          84,
+          157
+        ]
+      },
+      "source": {
+        "page": 110,
+        "quote": "Label France bleu"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Label origine France"
+    },
+    {
+      "rule_id": "HR-COLOR-059",
+      "title_fr": "Tarte salée - fond",
+      "title_vi": "Bánh tartes mặn - nền",
+      "title_en": "Savory tart - background",
+      "type": "color",
+      "severity": "minor",
+      "scope": "thematiques_tartes_salees",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#D39A9A",
+        "rgb": [
+          211,
+          154,
+          154
+        ]
+      },
+      "source": {
+        "page": 213,
+        "quote": "Tarte salée"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Tarte salée - fond"
+    },
+    {
+      "rule_id": "HR-COLOR-060",
+      "title_fr": "Tarte sucrée - fond",
+      "title_vi": "Bánh tartes ngọt - nền",
+      "title_en": "Sweet tart - background",
+      "type": "color",
+      "severity": "minor",
+      "scope": "thematiques_tartes_sucrees",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#ED6EA7",
+        "rgb": [
+          237,
+          110,
+          167
+        ]
+      },
+      "source": {
+        "page": 213,
+        "quote": "Tarte sucrée"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Tarte sucrée - fond"
+    },
+    {
+      "rule_id": "HR-COLOR-061",
+      "title_fr": "Pain spécial - fond",
+      "title_vi": "Bánh mì đặc biệt - nền",
+      "title_en": "Special bread - background",
+      "type": "color",
+      "severity": "minor",
+      "scope": "thematiques_pains_speciaux",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FDD08B",
+        "rgb": [
+          253,
+          208,
+          139
+        ]
+      },
+      "source": {
+        "page": 214,
+        "quote": "Pain spécial"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Pain spécial - fond"
+    },
+    {
+      "rule_id": "HR-COLOR-062",
+      "title_fr": "Marchés Viandes - secondaire",
+      "title_vi": "Chợ Thịt - màu phụ",
+      "title_en": "Meat markets - secondary",
+      "type": "color",
+      "severity": "minor",
+      "scope": "marches_boucherie_rotisserie_charcuterie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E8C4C4",
+        "rgb": [
+          232,
+          196,
+          196
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Boucherie secondaire"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marchés Viandes - secondaire"
+    },
+    {
+      "rule_id": "HR-COLOR-063",
+      "title_fr": "Marchés Fromagerie - secondaire",
+      "title_vi": "Chợ Phô mai - màu phụ",
+      "title_en": "Cheese markets - secondary",
+      "type": "color",
+      "severity": "minor",
+      "scope": "marches_fromagerie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F0E0C4",
+        "rgb": [
+          240,
+          224,
+          196
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Fromagerie secondaire"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marchés Fromagerie - secondaire"
+    },
+    {
+      "rule_id": "HR-COLOR-064",
+      "title_fr": "Marchés Poissonnerie - secondaire",
+      "title_vi": "Chợ Hải sản - màu phụ",
+      "title_en": "Fishmonger - secondary",
+      "type": "color",
+      "severity": "minor",
+      "scope": "marches_poissonnerie",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#B8CFE8",
+        "rgb": [
+          184,
+          207,
+          232
+        ]
+      },
+      "source": {
+        "page": 69,
+        "quote": "Poissonnerie secondaire"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marchés Poissonnerie - secondaire"
+    },
+    {
+      "rule_id": "HR-COLOR-065",
+      "title_fr": "Cultivons - accent",
+      "title_vi": "Cultivons - nhấn mạnh",
+      "title_en": "Cultivons - accent",
+      "type": "color",
+      "severity": "minor",
+      "scope": "rubrique_cultivons_le_bon",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#5CB85C",
+        "rgb": [
+          92,
+          184,
+          92
+        ]
+      },
+      "source": {
+        "page": 116,
+        "quote": "Cultivons accent"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Cultivons - accent"
+    },
+    {
+      "rule_id": "HR-COLOR-066",
+      "title_fr": "Produits français - accent",
+      "title_vi": "Sản phẩm Pháp - nhấn mạnh",
+      "title_en": "French products - accent",
+      "type": "color",
+      "severity": "minor",
+      "scope": "rubrique_selection_produits_francais",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#5A8FD4",
+        "rgb": [
+          90,
+          143,
+          212
+        ]
+      },
+      "source": {
+        "page": 110,
+        "quote": "Produits français accent"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Produits français - accent"
+    },
+    {
+      "rule_id": "HR-COLOR-067",
+      "title_fr": "Promo semaine - fond alternatif",
+      "title_vi": "KM tuần - nền thay thế",
+      "title_en": "Weekly promo - alternative background",
+      "type": "color",
+      "severity": "minor",
+      "scope": "promos_semaine",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F5E6D3",
+        "rgb": [
+          245,
+          230,
+          211
+        ]
+      },
+      "source": {
+        "page": 98,
+        "quote": "Promo semaine fond alternatif"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Promo semaine - fond alternatif"
+    },
+    {
+      "rule_id": "HR-COLOR-068",
+      "title_fr": "Encart promo - bordure",
+      "title_vi": "Encart KM - viền",
+      "title_en": "Promo insert - border",
+      "type": "color",
+      "severity": "minor",
+      "scope": "encart_promo",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#E0001A",
+        "rgb": [
+          224,
+          0,
+          26
+        ],
+        "width_mm": 0.5
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart bordure rouge"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Encart promo - bordure"
+    },
+    {
+      "rule_id": "HR-COLOR-069",
+      "title_fr": "Titre rubrique - couleur texte",
+      "title_vi": "Tiêu đề mục - màu chữ",
+      "title_en": "Section title - text color",
+      "type": "color",
+      "severity": "major",
+      "scope": "titre_rubrique",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source": {
+        "page": 33,
+        "quote": "Titre noir"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Titre rubrique - couleur texte"
+    },
+    {
+      "rule_id": "HR-COLOR-070",
+      "title_fr": "Corps texte - noir",
+      "title_vi": "Văn bản - đen",
+      "title_en": "Body text - black",
+      "type": "color",
+      "severity": "major",
+      "scope": "corps_texte",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#000000",
+        "rgb": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source": {
+        "page": 33,
+        "quote": "Texte noir par défaut"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Corps texte - noir"
+    },
+    {
+      "rule_id": "HR-COLOR-071",
+      "title_fr": "Texte sur fond coloré - contraste",
+      "title_vi": "Chữ trên nền màu - tương phản",
+      "title_en": "Text on colored background - contrast",
+      "type": "color",
+      "severity": "major",
+      "scope": "texte_fond_colore",
+      "check_method": "visual",
+      "constraint": {
+        "min_contrast_ratio": 4.5
+      },
+      "source": {
+        "page": 7,
+        "quote": "Contraste texte fond"
+      },
+      "applicable_to": [
+        "product_name",
+        "price_main",
+        "promo_badge"
+      ],
+      "title": "Texte sur fond coloré - contraste"
+    },
+    {
+      "rule_id": "HR-COLOR-072",
+      "title_fr": "Logo Auchan - couleurs officielles",
+      "title_vi": "Logo Auchan - màu chính thức",
+      "title_en": "Auchan logo - official colors",
+      "type": "color",
+      "severity": "blocker",
+      "scope": "logo_auchan",
+      "check_method": "code",
+      "constraint": {
+        "red": "#E0001A",
+        "green": "#67B346"
+      },
+      "source": {
+        "page": 248,
+        "quote": "Logo Auchan couleurs officielles"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo Auchan - couleurs officielles"
+    },
+    {
+      "rule_id": "HR-COLOR-073",
+      "title_fr": "Gradient interdit sauf exception",
+      "title_vi": "Gradient cấm trừ ngoại lệ",
+      "title_en": "Gradient forbidden except exception",
+      "type": "color",
+      "severity": "minor",
+      "scope": "global",
+      "check_method": "visual",
+      "constraint": {
+        "forbidden": "complex_gradient",
+        "allowed": "subtle_2color"
+      },
+      "source": {
+        "page": 7,
+        "quote": "Pas de dégradé complexe"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Gradient interdit sauf exception"
+    },
+    {
+      "rule_id": "HR-COLOR-074",
+      "title_fr": "Blanc cassé - fond produits",
+      "title_vi": "Trắng ngà - nền sản phẩm",
+      "title_en": "Off-white - product background",
+      "type": "color",
+      "severity": "minor",
+      "scope": "packshot",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F8F8F8",
+        "rgb": [
+          248,
+          248,
+          248
+        ]
+      },
+      "source": {
+        "page": 165,
+        "quote": "Fond packshot blanc cassé"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Blanc cassé - fond produits"
+    },
+    {
+      "rule_id": "HR-COLOR-075",
+      "title_fr": "Thématique Back to school - secondaire",
+      "title_vi": "Chủ đề Khai trường - màu phụ",
+      "title_en": "Back to school - secondary",
+      "type": "color",
+      "severity": "minor",
+      "scope": "thematiques_rentree",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#5B8FD4",
+        "rgb": [
+          91,
+          143,
+          212
+        ]
+      },
+      "source": {
+        "page": 299,
+        "quote": "Rentrée secondaire"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Thématique Back to school - secondaire"
+    },
+    {
+      "rule_id": "HR-COLOR-076",
+      "title_fr": "Thématique Noël - or",
+      "title_vi": "Chủ đề Giáng sinh - vàng gold",
+      "title_en": "Christmas - gold",
+      "type": "color",
+      "severity": "minor",
+      "scope": "thematiques_noel",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#F5A800",
+        "rgb": [
+          245,
+          168,
+          0
+        ]
+      },
+      "source": {
+        "page": 297,
+        "quote": "Noël or accent"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Thématique Noël - or"
+    },
+    {
+      "rule_id": "HR-COLOR-077",
+      "title_fr": "Thématique Pâques - pastel",
+      "title_vi": "Chủ đề Phục sinh - pastel",
+      "title_en": "Easter - pastel",
+      "type": "color",
+      "severity": "minor",
+      "scope": "thematiques_paques",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#FDE8E8",
+        "rgb": [
+          253,
+          232,
+          232
+        ]
+      },
+      "source": {
+        "page": 298,
+        "quote": "Pâques pastel"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Thématique Pâques - pastel"
+    },
+    {
+      "rule_id": "HR-COLOR-078",
+      "title_fr": "Rayon Frais - couleur",
+      "title_vi": "Gian hàng Tươi - màu",
+      "title_en": "Fresh department - color",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_frais",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#90B2D4",
+        "rgb": [
+          144,
+          178,
+          212
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Frais bleu clair"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Frais - couleur"
+    },
+    {
+      "rule_id": "HR-COLOR-079",
+      "title_fr": "Rayon Surgelés",
+      "title_vi": "Gian hàng Đông lạnh",
+      "title_en": "Frozen department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_surgeles",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#64C2C8",
+        "rgb": [
+          100,
+          194,
+          200
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Surgelés turquoise"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Surgelés"
+    },
+    {
+      "rule_id": "HR-COLOR-080",
+      "title_fr": "Rayon Viandes/Charcuterie",
+      "title_vi": "Gian hàng Thịt/Charcuterie",
+      "title_en": "Meat/Charcuterie department",
+      "type": "color",
+      "severity": "major",
+      "scope": "rayons_viandes",
+      "check_method": "code",
+      "constraint": {
+        "hex": "#D39A9A",
+        "rgb": [
+          211,
+          154,
+          154
+        ]
+      },
+      "source": {
+        "page": 131,
+        "quote": "Viandes #D39A9A"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Rayon Viandes/Charcuterie"
+    },
+    {
+      "rule_id": "HR-DIM-001",
+      "title_fr": "Flap - hauteur 8mm",
+      "title_vi": "Flap - chiều cao 8mm",
+      "title_en": "Flap - height 8mm",
+      "type": "dimension",
+      "severity": "blocker",
+      "scope": "flap",
+      "check_method": "code",
+      "constraint": {
+        "height_mm": 8
+      },
+      "source": {
+        "page": 64,
+        "quote": "Flap hauteur 8mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Flap - hauteur 8mm"
+    },
+    {
+      "rule_id": "HR-DIM-002",
+      "title_fr": "Marge interne 3mm",
+      "title_vi": "Lề trong 3mm",
+      "title_en": "Inner margin 3mm",
+      "type": "dimension",
+      "severity": "blocker",
+      "scope": "marges",
+      "check_method": "code",
+      "constraint": {
+        "margin_mm": 3,
+        "position": "inner"
+      },
+      "source": {
+        "page": 29,
+        "quote": "Marge interne 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge interne 3mm"
+    },
+    {
+      "rule_id": "HR-DIM-003",
+      "title_fr": "Marge externe 5mm",
+      "title_vi": "Lề ngoài 5mm",
+      "title_en": "Outer margin 5mm",
+      "type": "dimension",
+      "severity": "blocker",
+      "scope": "marges",
+      "check_method": "code",
+      "constraint": {
+        "margin_mm": 5,
+        "position": "outer"
+      },
+      "source": {
+        "page": 29,
+        "quote": "Marge externe 5mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge externe 5mm"
+    },
+    {
+      "rule_id": "HR-DIM-004",
+      "title_fr": "Marge pliure 7.5mm",
+      "title_vi": "Lề gấp 7.5mm",
+      "title_en": "Fold margin 7.5mm",
+      "type": "dimension",
+      "severity": "blocker",
+      "scope": "marges",
+      "check_method": "code",
+      "constraint": {
+        "margin_mm": 7.5,
+        "position": "fold"
+      },
+      "source": {
+        "page": 31,
+        "quote": "Marge pliure 7,5mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge pliure 7.5mm"
+    },
+    {
+      "rule_id": "HR-DIM-005",
+      "title_fr": "Encart - hauteur min 25mm",
+      "title_vi": "Encart - chiều cao tối thiểu 25mm",
+      "title_en": "Insert - min height 25mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "encart",
+      "check_method": "code",
+      "constraint": {
+        "min_height_mm": 25
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart hauteur minimum 25mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Encart - hauteur min 25mm"
+    },
+    {
+      "rule_id": "HR-DIM-006",
+      "title_fr": "Labels - hauteur 11mm",
+      "title_vi": "Nhãn - chiều cao 11mm",
+      "title_en": "Labels - height 11mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "labels",
+      "check_method": "code",
+      "constraint": {
+        "height_mm": 11
+      },
+      "source": {
+        "page": 157,
+        "quote": "Labels hauteur 11mm"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Labels - hauteur 11mm"
+    },
+    {
+      "rule_id": "HR-DIM-007",
+      "title_fr": "Packshot - hauteur min 22mm (cases classiques)",
+      "title_vi": "Packshot - chiều cao tối thiểu 22mm (ô thường)",
+      "title_en": "Packshot - min height 22mm (classic cases)",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "packshot",
+      "check_method": "code",
+      "constraint": {
+        "min_height_mm": 22,
+        "case_type": "classique"
+      },
+      "source": {
+        "page": 165,
+        "quote": "Packshot cases classiques 22mm"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Packshot - hauteur min 22mm (cases classiques)"
+    },
+    {
+      "rule_id": "HR-DIM-008",
+      "title_fr": "Packshot - hauteur min 25mm (cases bombes)",
+      "title_vi": "Packshot - chiều cao tối thiểu 25mm (ô bombe)",
+      "title_en": "Packshot - min height 25mm (bomb cases)",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "packshot",
+      "check_method": "code",
+      "constraint": {
+        "min_height_mm": 25,
+        "case_type": "bombe"
+      },
+      "source": {
+        "page": 166,
+        "quote": "Packshot cases bombes 25mm"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Packshot - hauteur min 25mm (cases bombes)"
+    },
+    {
+      "rule_id": "HR-DIM-009",
+      "title_fr": "Logo Auchan - hauteur max 7mm (petit)",
+      "title_vi": "Logo Auchan - chiều cao tối đa 7mm (nhỏ)",
+      "title_en": "Auchan logo - max height 7mm (small)",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "logo_auchan",
+      "check_method": "code",
+      "constraint": {
+        "max_height_mm": 7,
+        "size": "petit"
+      },
+      "source": {
+        "page": 248,
+        "quote": "Logo Auchan petit 7mm"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo Auchan - hauteur max 7mm (petit)"
+    },
+    {
+      "rule_id": "HR-DIM-010",
+      "title_fr": "Logo Auchan - hauteur 10mm (standard)",
+      "title_vi": "Logo Auchan - chiều cao 10mm (chuẩn)",
+      "title_en": "Auchan logo - height 10mm (standard)",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "logo_auchan",
+      "check_method": "code",
+      "constraint": {
+        "height_mm": 10,
+        "size": "standard"
+      },
+      "source": {
+        "page": 249,
+        "quote": "Logo Auchan standard 10mm"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo Auchan - hauteur 10mm (standard)"
+    },
+    {
+      "rule_id": "HR-DIM-011",
+      "title_fr": "Logo Auchan - hauteur max 15mm (grand)",
+      "title_vi": "Logo Auchan - chiều cao tối đa 15mm (lớn)",
+      "title_en": "Auchan logo - max height 15mm (large)",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "logo_auchan",
+      "check_method": "code",
+      "constraint": {
+        "max_height_mm": 15,
+        "size": "grand"
+      },
+      "source": {
+        "page": 250,
+        "quote": "Logo Auchan grand 15mm"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo Auchan - hauteur max 15mm (grand)"
+    },
+    {
+      "rule_id": "HR-DIM-012",
+      "title_fr": "Soit X€ l'unité - largeur max 40mm",
+      "title_vi": "Soit X€/đơn vị - chiều rộng tối đa 40mm",
+      "title_en": "Soit X€ per unit - max width 40mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "bloc_prix_soit_unite",
+      "check_method": "code",
+      "constraint": {
+        "max_width_mm": 40
+      },
+      "source": {
+        "page": 231,
+        "quote": "d'une largeur maximum de 40mm"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Soit X€ l'unité - largeur max 40mm"
+    },
+    {
+      "rule_id": "HR-DIM-013",
+      "title_fr": "Case produit - largeur min",
+      "title_vi": "Ô sản phẩm - chiều rộng tối thiểu",
+      "title_en": "Product case - min width",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "case_produit",
+      "check_method": "code",
+      "constraint": {
+        "min_width_mm": 35
+      },
+      "source": {
+        "page": 36,
+        "quote": "Case produit largeur minimum"
+      },
+      "applicable_to": [
+        "product_image",
+        "product_name",
+        "price_main"
+      ],
+      "title": "Case produit - largeur min"
+    },
+    {
+      "rule_id": "HR-DIM-014",
+      "title_fr": "Espace entre cases - 3mm",
+      "title_vi": "Khoảng cách giữa các ô - 3mm",
+      "title_en": "Space between cases - 3mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "grille",
+      "check_method": "code",
+      "constraint": {
+        "gap_mm": 3
+      },
+      "source": {
+        "page": 31,
+        "quote": "Espace entre cases 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Espace entre cases - 3mm"
+    },
+    {
+      "rule_id": "HR-DIM-015",
+      "title_fr": "Badge promo - taille min",
+      "title_vi": "Huy hiệu KM - kích thước tối thiểu",
+      "title_en": "Promo badge - min size",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "badge_promo",
+      "check_method": "code",
+      "constraint": {
+        "min_height_mm": 8,
+        "min_width_mm": 15
+      },
+      "source": {
+        "page": 92,
+        "quote": "Badge promo dimensions minimales"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Badge promo - taille min"
+    },
+    {
+      "rule_id": "HR-DIM-016",
+      "title_fr": "Logo marque partenaire - max 10mm",
+      "title_vi": "Logo đối tác - tối đa 10mm",
+      "title_en": "Partner brand logo - max 10mm",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "logo_marque",
+      "check_method": "code",
+      "constraint": {
+        "max_height_mm": 10
+      },
+      "source": {
+        "page": 262,
+        "quote": "Logo marque partenaire 10mm"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo marque partenaire - max 10mm"
+    },
+    {
+      "rule_id": "HR-DIM-017",
+      "title_fr": "Titre rubrique - hauteur ligne",
+      "title_vi": "Tiêu đề mục - chiều cao dòng",
+      "title_en": "Section title - line height",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "titre_rubrique",
+      "check_method": "gpt",
+      "constraint": {
+        "line_height_pt": 33
+      },
+      "source": {
+        "page": 33,
+        "quote": "Titre rubrique corps 33pts"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Titre rubrique - hauteur ligne"
+    },
+    {
+      "rule_id": "HR-DIM-018",
+      "title_fr": "Sous-titre - hauteur",
+      "title_vi": "Phụ đề - chiều cao",
+      "title_en": "Subtitle - height",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "sous_titre",
+      "check_method": "gpt",
+      "constraint": {
+        "size_pt_min": 10,
+        "size_pt_max": 13
+      },
+      "source": {
+        "page": 33,
+        "quote": "Sous-titre corps 10-13pts"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Sous-titre - hauteur"
+    },
+    {
+      "rule_id": "HR-DIM-019",
+      "title_fr": "Texte légal - corps min 5pts",
+      "title_vi": "Văn bản pháp lý - cỡ tối thiểu 5pts",
+      "title_en": "Legal text - min size 5pts",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "texte_legal",
+      "check_method": "gpt",
+      "constraint": {
+        "min_size_pt": 5
+      },
+      "source": {
+        "page": 33,
+        "quote": "Texte légal minimum 5pts"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Texte légal - corps min 5pts"
+    },
+    {
+      "rule_id": "HR-DIM-020",
+      "title_fr": "Marge interne encart - 3mm",
+      "title_vi": "Lề trong encart - 3mm",
+      "title_en": "Insert inner margin - 3mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "encart",
+      "check_method": "code",
+      "constraint": {
+        "inner_margin_mm": 3
+      },
+      "source": {
+        "page": 100,
+        "quote": "Marge interne encart 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge interne encart - 3mm"
+    },
+    {
+      "rule_id": "HR-DIM-021",
+      "title_fr": "Prix - hauteur min",
+      "title_vi": "Giá - chiều cao tối thiểu",
+      "title_en": "Price - min height",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "bloc_prix",
+      "check_method": "code",
+      "constraint": {
+        "min_height_mm": 8
+      },
+      "source": {
+        "page": 151,
+        "quote": "Prix hauteur min"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Prix - hauteur min"
+    },
+    {
+      "rule_id": "HR-DIM-022",
+      "title_fr": "Nom produit - largeur max",
+      "title_vi": "Tên SP - chiều rộng tối đa",
+      "title_en": "Product name - max width",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "nom_produit",
+      "check_method": "code",
+      "constraint": {
+        "max_width_mm": 45
+      },
+      "source": {
+        "page": 165,
+        "quote": "Nom largeur case"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Nom produit - largeur max"
+    },
+    {
+      "rule_id": "HR-DIM-023",
+      "title_fr": "Badge Waaoh - dimensions",
+      "title_vi": "Huy hiệu Waaoh - kích thước",
+      "title_en": "Waaoh badge - dimensions",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "badge_waaoh",
+      "check_method": "code",
+      "constraint": {
+        "height_mm": 10,
+        "min_width_mm": 20
+      },
+      "source": {
+        "page": 232,
+        "quote": "Badge Waaoh dimensions"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Badge Waaoh - dimensions"
+    },
+    {
+      "rule_id": "HR-DIM-024",
+      "title_fr": "Marge top page - 5mm",
+      "title_vi": "Lề trên trang - 5mm",
+      "title_en": "Page top margin - 5mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "marges",
+      "check_method": "code",
+      "constraint": {
+        "margin_top_mm": 5
+      },
+      "source": {
+        "page": 29,
+        "quote": "Marge supérieure 5mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge top page - 5mm"
+    },
+    {
+      "rule_id": "HR-DIM-025",
+      "title_fr": "Marge bottom page - 5mm",
+      "title_vi": "Lề dưới trang - 5mm",
+      "title_en": "Page bottom margin - 5mm",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "marges",
+      "check_method": "code",
+      "constraint": {
+        "margin_bottom_mm": 5
+      },
+      "source": {
+        "page": 29,
+        "quote": "Marge inférieure 5mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge bottom page - 5mm"
+    },
+    {
+      "rule_id": "HR-DIM-026",
+      "title_fr": "Titre - hauteur ligne 28pts",
+      "title_vi": "Tiêu đề - chiều cao dòng 28pts",
+      "title_en": "Title - line height 28pts",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "titre_secondaire",
+      "check_method": "gpt",
+      "constraint": {
+        "line_height_pt": 28
+      },
+      "source": {
+        "page": 33,
+        "quote": "Titre secondaire 28pts"
+      },
+      "applicable_to": [
+        "product_name"
+      ],
+      "title": "Titre - hauteur ligne 28pts"
+    },
+    {
+      "rule_id": "HR-DIM-027",
+      "title_fr": "Encart - largeur min",
+      "title_vi": "Encart - chiều rộng tối thiểu",
+      "title_en": "Insert - min width",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "encart",
+      "check_method": "code",
+      "constraint": {
+        "min_width_mm": 40
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart largeur min"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Encart - largeur min"
+    },
+    {
+      "rule_id": "HR-DIM-028",
+      "title_fr": "Packshot - ratio min",
+      "title_vi": "Packshot - tỷ lệ tối thiểu",
+      "title_en": "Packshot - min ratio",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "packshot",
+      "check_method": "code",
+      "constraint": {
+        "min_aspect_ratio": 0.7
+      },
+      "source": {
+        "page": 165,
+        "quote": "Packshot ratio"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Packshot - ratio min"
+    },
+    {
+      "rule_id": "HR-DIM-029",
+      "title_fr": "Label - largeur min",
+      "title_vi": "Nhãn - chiều rộng tối thiểu",
+      "title_en": "Label - min width",
+      "type": "dimension",
+      "severity": "minor",
+      "scope": "labels",
+      "check_method": "code",
+      "constraint": {
+        "min_width_mm": 18
+      },
+      "source": {
+        "page": 157,
+        "quote": "Label largeur min"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Label - largeur min"
+    },
+    {
+      "rule_id": "HR-DIM-030",
+      "title_fr": "Flap - largeur pleine",
+      "title_vi": "Flap - chiều rộng toàn trang",
+      "title_en": "Flap - full width",
+      "type": "dimension",
+      "severity": "major",
+      "scope": "flap",
+      "check_method": "code",
+      "constraint": {
+        "width": "full_page"
+      },
+      "source": {
+        "page": 64,
+        "quote": "Flap largeur pleine"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Flap - largeur pleine"
+    },
+    {
+      "rule_id": "HR-SPACING-001",
+      "title_fr": "Soit X€ l'unité - distance au bloc prix 2mm",
+      "title_vi": "Soit X€/đơn vị - khoảng cách tới khối giá 2mm",
+      "title_en": "Soit X€ per unit - distance to price block 2mm",
+      "type": "spacing",
+      "severity": "major",
+      "scope": "bloc_prix_soit_unite",
+      "check_method": "code",
+      "constraint": {
+        "distance_to_price_block_mm": 2
+      },
+      "source": {
+        "page": 233,
+        "quote": "Le \"X€ l'unité\" ... être à 2mm du bloc prix"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Soit X€ l'unité - distance au bloc prix 2mm"
+    },
+    {
+      "rule_id": "HR-SPACING-002",
+      "title_fr": "Waaoh - distance mention cagnotte 0.5mm",
+      "title_vi": "Waaoh - khoảng cách ghi cagnotte 0.5mm",
+      "title_en": "Waaoh - cagnotte mention distance 0.5mm",
+      "type": "spacing",
+      "severity": "major",
+      "scope": "bloc_prix_soit_unite_waaoh",
+      "check_method": "code",
+      "constraint": {
+        "distance_mm": 0.5,
+        "between": "bottom_block_and_cagnotte_deduite"
+      },
+      "source": {
+        "page": 232,
+        "quote": "La distance ... est fixe ... x = 0,5mm"
+      },
+      "applicable_to": [
+        "price_main",
+        "promo_badge"
+      ],
+      "title": "Waaoh - distance mention cagnotte 0.5mm"
+    },
+    {
+      "rule_id": "HR-SPACING-003",
+      "title_fr": "Espace entre cases - 3mm",
+      "title_vi": "Khoảng cách giữa các ô - 3mm",
+      "title_en": "Space between cases - 3mm",
+      "type": "spacing",
+      "severity": "blocker",
+      "scope": "grille",
+      "check_method": "code",
+      "constraint": {
+        "gap_between_cases_mm": 3
+      },
+      "source": {
+        "page": 31,
+        "quote": "Espace entre cases 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Espace entre cases - 3mm"
+    },
+    {
+      "rule_id": "HR-SPACING-004",
+      "title_fr": "Zone de sécurité pliure - 7.5mm",
+      "title_vi": "Vùng an toàn gấp - 7.5mm",
+      "title_en": "Fold safety zone - 7.5mm",
+      "type": "spacing",
+      "severity": "blocker",
+      "scope": "pliure",
+      "check_method": "code",
+      "constraint": {
+        "safety_zone_mm": 7.5
+      },
+      "source": {
+        "page": 31,
+        "quote": "Pliure zone de sécurité 7,5mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Zone de sécurité pliure - 7.5mm"
+    },
+    {
+      "rule_id": "HR-SPACING-005",
+      "title_fr": "Flaps - espacement 2mm",
+      "title_vi": "Flaps - khoảng cách 2mm",
+      "title_en": "Flaps - spacing 2mm",
+      "type": "spacing",
+      "severity": "major",
+      "scope": "flaps",
+      "check_method": "code",
+      "constraint": {
+        "gap_mm": 2
+      },
+      "source": {
+        "page": 66,
+        "quote": "Flaps espacement 2mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Flaps - espacement 2mm"
+    },
+    {
+      "rule_id": "HR-SPACING-006",
+      "title_fr": "Marge interne encart - 3mm",
+      "title_vi": "Lề trong encart - 3mm",
+      "title_en": "Insert internal margin - 3mm",
+      "type": "spacing",
+      "severity": "major",
+      "scope": "encart",
+      "check_method": "code",
+      "constraint": {
+        "internal_margin_mm": 3
+      },
+      "source": {
+        "page": 100,
+        "quote": "Marge interne 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge interne encart - 3mm"
+    },
+    {
+      "rule_id": "HR-SPACING-007",
+      "title_fr": "Prix / origine - espacement",
+      "title_vi": "Giá / xuất xứ - khoảng cách",
+      "title_en": "Price / origin - spacing",
+      "type": "spacing",
+      "severity": "major",
+      "scope": "bloc_prix",
+      "check_method": "code",
+      "constraint": {
+        "distance_prix_origine_mm": 2
+      },
+      "source": {
+        "page": 233,
+        "quote": "Prix unité distance 2mm"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Prix / origine - espacement"
+    },
+    {
+      "rule_id": "HR-SPACING-008",
+      "title_fr": "Packshot / nom produit - espacement",
+      "title_vi": "Packshot / tên sản phẩm - khoảng cách",
+      "title_en": "Packshot / product name - spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "case_produit",
+      "check_method": "code",
+      "constraint": {
+        "min_gap_mm": 1
+      },
+      "source": {
+        "page": 165,
+        "quote": "Espacement packshot nom"
+      },
+      "applicable_to": [
+        "product_image",
+        "product_name"
+      ],
+      "title": "Packshot / nom produit - espacement"
+    },
+    {
+      "rule_id": "HR-SPACING-009",
+      "title_fr": "Nom produit / prix - espacement",
+      "title_vi": "Tên SP / giá - khoảng cách",
+      "title_en": "Product name / price - spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "case_produit",
+      "check_method": "code",
+      "constraint": {
+        "min_gap_mm": 2
+      },
+      "source": {
+        "page": 165,
+        "quote": "Espacement nom prix"
+      },
+      "applicable_to": [
+        "product_name",
+        "price_main"
+      ],
+      "title": "Nom produit / prix - espacement"
+    },
+    {
+      "rule_id": "HR-SPACING-010",
+      "title_fr": "Badge / bord case - marge min",
+      "title_vi": "Huy hiệu / viền ô - lề tối thiểu",
+      "title_en": "Badge / case edge - min margin",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "badge_promo",
+      "check_method": "code",
+      "constraint": {
+        "min_margin_from_edge_mm": 1
+      },
+      "source": {
+        "page": 92,
+        "quote": "Badge marge bord"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Badge / bord case - marge min"
+    },
+    {
+      "rule_id": "HR-SPACING-011",
+      "title_fr": "Titre rubrique / contenu - espacement",
+      "title_vi": "Tiêu đề mục / nội dung - khoảng cách",
+      "title_en": "Section title / content - spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "titre_rubrique",
+      "check_method": "gpt",
+      "constraint": {
+        "min_gap_mm": 3
+      },
+      "source": {
+        "page": 33,
+        "quote": "Espacement titre contenu"
+      },
+      "applicable_to": [
+        "product_name",
+        "background"
+      ],
+      "title": "Titre rubrique / contenu - espacement"
+    },
+    {
+      "rule_id": "HR-SPACING-012",
+      "title_fr": "Logo / bord page - marge",
+      "title_vi": "Logo / viền trang - lề",
+      "title_en": "Logo / page edge - margin",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "logo",
+      "check_method": "code",
+      "constraint": {
+        "min_margin_mm": 5
+      },
+      "source": {
+        "page": 248,
+        "quote": "Logo marge bord page"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo / bord page - marge"
+    },
+    {
+      "rule_id": "HR-SPACING-013",
+      "title_fr": "Colonnes - espacement horizontal",
+      "title_vi": "Cột - khoảng cách ngang",
+      "title_en": "Columns - horizontal spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "grille",
+      "check_method": "code",
+      "constraint": {
+        "column_gap_mm": 3
+      },
+      "source": {
+        "page": 31,
+        "quote": "Espace colonnes 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Colonnes - espacement horizontal"
+    },
+    {
+      "rule_id": "HR-SPACING-014",
+      "title_fr": "Lignes - espacement vertical",
+      "title_vi": "Dòng - khoảng cách dọc",
+      "title_en": "Rows - vertical spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "grille",
+      "check_method": "code",
+      "constraint": {
+        "row_gap_mm": 3
+      },
+      "source": {
+        "page": 31,
+        "quote": "Espace lignes 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Lignes - espacement vertical"
+    },
+    {
+      "rule_id": "HR-SPACING-015",
+      "title_fr": "Prix barré / prix promo - écart",
+      "title_vi": "Giá gạch / giá KM - khoảng cách",
+      "title_en": "Strikethrough / promo price - gap",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "bloc_prix",
+      "check_method": "code",
+      "constraint": {
+        "min_gap_mm": 1
+      },
+      "source": {
+        "page": 151,
+        "quote": "Ecart prix barré promo"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Prix barré / prix promo - écart"
+    },
+    {
+      "rule_id": "HR-SPACING-016",
+      "title_fr": "Encart - marge externe",
+      "title_vi": "Encart - lề ngoài",
+      "title_en": "Insert - outer margin",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "encart",
+      "check_method": "code",
+      "constraint": {
+        "outer_margin_mm": 5
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart marge externe"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Encart - marge externe"
+    },
+    {
+      "rule_id": "HR-SPACING-017",
+      "title_fr": "Titre / grille - espacement",
+      "title_vi": "Tiêu đề / lưới - khoảng cách",
+      "title_en": "Title / grid - spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "titre_rubrique",
+      "check_method": "gpt",
+      "constraint": {
+        "min_gap_mm": 5
+      },
+      "source": {
+        "page": 33,
+        "quote": "Titre grille espacement"
+      },
+      "applicable_to": [
+        "product_name",
+        "background"
+      ],
+      "title": "Titre / grille - espacement"
+    },
+    {
+      "rule_id": "HR-SPACING-018",
+      "title_fr": "Multi-prix - espacement vertical",
+      "title_vi": "Nhiều giá - khoảng cách dọc",
+      "title_en": "Multi-price - vertical spacing",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "bloc_prix",
+      "check_method": "code",
+      "constraint": {
+        "vertical_gap_mm": 2
+      },
+      "source": {
+        "page": 233,
+        "quote": "Multi-prix espacement"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Multi-prix - espacement vertical"
+    },
+    {
+      "rule_id": "HR-SPACING-019",
+      "title_fr": "Badge / packshot - recouvrement",
+      "title_vi": "Huy hiệu / packshot - chồng lấn",
+      "title_en": "Badge / packshot - overlap",
+      "type": "spacing",
+      "severity": "minor",
+      "scope": "case_produit",
+      "check_method": "code",
+      "constraint": {
+        "max_overlap_mm": 3
+      },
+      "source": {
+        "page": 92,
+        "quote": "Badge recouvrement packshot"
+      },
+      "applicable_to": [
+        "promo_badge",
+        "product_image"
+      ],
+      "title": "Badge / packshot - recouvrement"
+    },
+    {
+      "rule_id": "HR-SPACING-020",
+      "title_fr": "Marge sécurité impression - 3mm",
+      "title_vi": "Lề an toàn in - 3mm",
+      "title_en": "Print safety margin - 3mm",
+      "type": "spacing",
+      "severity": "major",
+      "scope": "marges",
+      "check_method": "code",
+      "constraint": {
+        "safety_margin_mm": 3
+      },
+      "source": {
+        "page": 29,
+        "quote": "Marge sécurité 3mm"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Marge sécurité impression - 3mm"
+    },
+    {
+      "rule_id": "HR-EFFECT-001",
+      "title_fr": "Packshot sans ombre portée/lueur",
+      "title_vi": "Packshot không bóng đổ/ánh sáng",
+      "title_en": "Packshot without drop shadow/glow",
+      "type": "forbidden_effect",
+      "severity": "blocker",
+      "scope": "packshot_global",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "drop_shadow",
+          "diffuse_shadow",
+          "outer_glow",
+          "other_fx"
+        ],
+        "exception": "product_on_white_case_with_low_contrast"
+      },
+      "source": {
+        "page": 355,
+        "quote": "sans ombre portée - sans ombre diffuse - sans lueur externe"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Packshot sans ombre portée/lueur"
+    },
+    {
+      "rule_id": "HR-EFFECT-002",
+      "title_fr": "Exception ombre - fond blanc",
+      "title_vi": "Ngoại lệ bóng - nền trắng",
+      "title_en": "Shadow exception - white background",
+      "type": "forbidden_effect",
+      "severity": "major",
+      "scope": "packshot",
+      "check_method": "gpt",
+      "constraint": {
+        "exception": "white_background_natural_shadow",
+        "max_intensity": "low"
+      },
+      "source": {
+        "page": 356,
+        "quote": "Exception fond blanc - ombre naturelle légère"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Exception ombre - fond blanc"
+    },
+    {
+      "rule_id": "HR-EFFECT-003",
+      "title_fr": "Fruits et légumes - ombre naturelle autorisée",
+      "title_vi": "Rau quả - bóng tự nhiên được phép",
+      "title_en": "Fruits and vegetables - natural shadow allowed",
+      "type": "forbidden_effect",
+      "severity": "minor",
+      "scope": "marches_fruits_legumes",
+      "check_method": "gpt",
+      "constraint": {
+        "allowed": "natural_shadow_only",
+        "forbidden": [
+          "artificial_glow",
+          "heavy_drop_shadow"
+        ]
+      },
+      "source": {
+        "page": 363,
+        "quote": "F&L ombre naturelle acceptée"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Fruits et légumes - ombre naturelle autorisée"
+    },
+    {
+      "rule_id": "HR-EFFECT-004",
+      "title_fr": "Interdiction lueur externe",
+      "title_vi": "Cấm ánh sáng ngoài",
+      "title_en": "Outer glow forbidden",
+      "type": "forbidden_effect",
+      "severity": "blocker",
+      "scope": "global",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "outer_glow",
+          "halo"
+        ]
+      },
+      "source": {
+        "page": 355,
+        "quote": "sans lueur externe"
+      },
+      "applicable_to": [
+        "product_image",
+        "promo_badge",
+        "brand_logo"
+      ],
+      "title": "Interdiction lueur externe"
+    },
+    {
+      "rule_id": "HR-EFFECT-005",
+      "title_fr": "Interdiction ombre diffuse",
+      "title_vi": "Cấm bóng mờ",
+      "title_en": "Diffuse shadow forbidden",
+      "type": "forbidden_effect",
+      "severity": "blocker",
+      "scope": "global",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "diffuse_shadow",
+          "soft_shadow"
+        ]
+      },
+      "source": {
+        "page": 355,
+        "quote": "sans ombre diffuse"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Interdiction ombre diffuse"
+    },
+    {
+      "rule_id": "HR-EFFECT-006",
+      "title_fr": "Interdiction ombre portée",
+      "title_vi": "Cấm bóng đổ",
+      "title_en": "Drop shadow forbidden",
+      "type": "forbidden_effect",
+      "severity": "blocker",
+      "scope": "global",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "drop_shadow"
+        ]
+      },
+      "source": {
+        "page": 355,
+        "quote": "sans ombre portée"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Interdiction ombre portée"
+    },
+    {
+      "rule_id": "HR-EFFECT-007",
+      "title_fr": "Badge sans effets visuels",
+      "title_vi": "Huy hiệu không hiệu ứng",
+      "title_en": "Badge without visual effects",
+      "type": "forbidden_effect",
+      "severity": "major",
+      "scope": "badge_promo",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "shadow",
+          "glow",
+          "gradient_complex"
+        ]
+      },
+      "source": {
+        "page": 92,
+        "quote": "Badge sans ombre ni lueur"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Badge sans effets visuels"
+    },
+    {
+      "rule_id": "HR-EFFECT-008",
+      "title_fr": "Texte sans contour décoratif",
+      "title_vi": "Chữ không viền trang trí",
+      "title_en": "Text without decorative outline",
+      "type": "forbidden_effect",
+      "severity": "minor",
+      "scope": "texte",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "decorative_stroke",
+          "text_shadow"
+        ]
+      },
+      "source": {
+        "page": 355,
+        "quote": "Texte sans contour décoratif"
+      },
+      "applicable_to": [
+        "product_name",
+        "price_main",
+        "promo_badge"
+      ],
+      "title": "Texte sans contour décoratif"
+    },
+    {
+      "rule_id": "HR-EFFECT-009",
+      "title_fr": "Reflet interdit sur packshot",
+      "title_vi": "Phản chiếu cấm trên packshot",
+      "title_en": "Reflection forbidden on packshot",
+      "type": "forbidden_effect",
+      "severity": "major",
+      "scope": "packshot",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "reflection",
+          "mirror_effect"
+        ]
+      },
+      "source": {
+        "page": 355,
+        "quote": "Sans reflet artificiel"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Reflet interdit sur packshot"
+    },
+    {
+      "rule_id": "HR-EFFECT-010",
+      "title_fr": "Dégradé complexe interdit",
+      "title_vi": "Gradient phức tạp cấm",
+      "title_en": "Complex gradient forbidden",
+      "type": "forbidden_effect",
+      "severity": "minor",
+      "scope": "global",
+      "check_method": "gpt",
+      "constraint": {
+        "forbidden": [
+          "multi_stop_gradient",
+          "radial_complex"
+        ]
+      },
+      "source": {
+        "page": 355,
+        "quote": "Pas de dégradé complexe"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Dégradé complexe interdit"
+    },
+    {
+      "rule_id": "HR-LAYOUT-001",
+      "title_fr": "Maximum 8 cases par page",
+      "title_vi": "Tối đa 8 ô mỗi trang",
+      "title_en": "Max 8 cases per page",
+      "type": "layout",
+      "severity": "blocker",
+      "scope": "grille",
+      "check_method": "gpt",
+      "constraint": {
+        "max_cases_per_page": 8
+      },
+      "source": {
+        "page": 36,
+        "quote": "Maximum 8 cases par page"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Maximum 8 cases par page"
+    },
+    {
+      "rule_id": "HR-LAYOUT-002",
+      "title_fr": "Flaps - position et dimensions",
+      "title_vi": "Flaps - vị trí và kích thước",
+      "title_en": "Flaps - position and dimensions",
+      "type": "layout",
+      "severity": "major",
+      "scope": "flaps",
+      "check_method": "gpt",
+      "constraint": {
+        "height_mm": 8,
+        "position": "top_bottom"
+      },
+      "source": {
+        "page": 63,
+        "quote": "Flaps p.63-66"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Flaps - position et dimensions"
+    },
+    {
+      "rule_id": "HR-LAYOUT-003",
+      "title_fr": "Bombes - placement cohérent",
+      "title_vi": "Bombes - vị trí nhất quán",
+      "title_en": "Bombs - consistent placement",
+      "type": "layout",
+      "severity": "major",
+      "scope": "bombes",
+      "check_method": "gpt",
+      "constraint": {
+        "placement": "consistent_grid",
+        "max_per_row": 4
+      },
+      "source": {
+        "page": 78,
+        "quote": "Bombes placement p.78"
+      },
+      "applicable_to": [
+        "background",
+        "promo_badge"
+      ],
+      "title": "Bombes - placement cohérent"
+    },
+    {
+      "rule_id": "HR-LAYOUT-004",
+      "title_fr": "Prix / origine - hiérarchie",
+      "title_vi": "Giá / xuất xứ - thứ bậc",
+      "title_en": "Price / origin - hierarchy",
+      "type": "layout",
+      "severity": "blocker",
+      "scope": "bloc_prix",
+      "check_method": "gpt",
+      "constraint": {
+        "price_dominant": true,
+        "origin_secondary": true
+      },
+      "source": {
+        "page": 151,
+        "quote": "Prix dominant, origine secondaire"
+      },
+      "applicable_to": [
+        "price_main"
+      ],
+      "title": "Prix / origine - hiérarchie"
+    },
+    {
+      "rule_id": "HR-LAYOUT-005",
+      "title_fr": "Packshot centré dans la case",
+      "title_vi": "Packshot căn giữa trong ô",
+      "title_en": "Packshot centered in case",
+      "type": "layout",
+      "severity": "major",
+      "scope": "case_produit",
+      "check_method": "gpt",
+      "constraint": {
+        "centered": true,
+        "padding_min_mm": 2
+      },
+      "source": {
+        "page": 165,
+        "quote": "Packshot centré case"
+      },
+      "applicable_to": [
+        "product_image"
+      ],
+      "title": "Packshot centré dans la case"
+    },
+    {
+      "rule_id": "HR-LAYOUT-006",
+      "title_fr": "Ordre éléments case: packshot, nom, prix",
+      "title_vi": "Thứ tự: packshot, tên, giá",
+      "title_en": "Case element order: packshot, name, price",
+      "type": "layout",
+      "severity": "blocker",
+      "scope": "case_produit",
+      "check_method": "gpt",
+      "constraint": {
+        "order": [
+          "product_image",
+          "product_name",
+          "price_main"
+        ]
+      },
+      "source": {
+        "page": 36,
+        "quote": "Ordre vertical: packshot, nom, prix"
+      },
+      "applicable_to": [
+        "product_image",
+        "product_name",
+        "price_main"
+      ],
+      "title": "Ordre éléments case: packshot, nom, prix"
+    },
+    {
+      "rule_id": "HR-LAYOUT-007",
+      "title_fr": "Badge position - coin supérieur",
+      "title_vi": "Vị trí huy hiệu - góc trên",
+      "title_en": "Badge position - top corner",
+      "type": "layout",
+      "severity": "major",
+      "scope": "badge_promo",
+      "check_method": "gpt",
+      "constraint": {
+        "preferred_position": "top_right",
+        "alternatives": [
+          "top_left"
+        ]
+      },
+      "source": {
+        "page": 92,
+        "quote": "Badge coin supérieur"
+      },
+      "applicable_to": [
+        "promo_badge"
+      ],
+      "title": "Badge position - coin supérieur"
+    },
+    {
+      "rule_id": "HR-LAYOUT-008",
+      "title_fr": "Grille alignée - gouttière",
+      "title_vi": "Lưới căn chỉnh - rãnh",
+      "title_en": "Aligned grid - gutter",
+      "type": "layout",
+      "severity": "major",
+      "scope": "grille",
+      "check_method": "gpt",
+      "constraint": {
+        "alignment": "strict",
+        "gutter_consistent": true
+      },
+      "source": {
+        "page": 31,
+        "quote": "Grille gouttière alignée"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Grille alignée - gouttière"
+    },
+    {
+      "rule_id": "HR-LAYOUT-009",
+      "title_fr": "Logo header - position fixe",
+      "title_vi": "Logo header - vị trí cố định",
+      "title_en": "Header logo - fixed position",
+      "type": "layout",
+      "severity": "major",
+      "scope": "header",
+      "check_method": "gpt",
+      "constraint": {
+        "position": "top_left_or_center",
+        "margin_min_mm": 5
+      },
+      "source": {
+        "page": 248,
+        "quote": "Logo header position"
+      },
+      "applicable_to": [
+        "brand_logo"
+      ],
+      "title": "Logo header - position fixe"
+    },
+    {
+      "rule_id": "HR-LAYOUT-010",
+      "title_fr": "Encart - non chevauchement contenu",
+      "title_vi": "Encart - không chồng lấn nội dung",
+      "title_en": "Insert - no content overlap",
+      "type": "layout",
+      "severity": "blocker",
+      "scope": "encart",
+      "check_method": "gpt",
+      "constraint": {
+        "no_overlap": true,
+        "clear_separation": true
+      },
+      "source": {
+        "page": 100,
+        "quote": "Encart sans chevauchement"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Encart - non chevauchement contenu"
+    },
+    {
+      "rule_id": "HR-LAYOUT-011",
+      "title_fr": "Titre rubrique - avant première case",
+      "title_vi": "Tiêu đề mục - trước ô đầu",
+      "title_en": "Section title - before first case",
+      "type": "layout",
+      "severity": "major",
+      "scope": "titre_rubrique",
+      "check_method": "gpt",
+      "constraint": {
+        "position": "above_grid",
+        "full_width": true
+      },
+      "source": {
+        "page": 33,
+        "quote": "Titre avant grille"
+      },
+      "applicable_to": [
+        "product_name",
+        "background"
+      ],
+      "title": "Titre rubrique - avant première case"
+    },
+    {
+      "rule_id": "HR-LAYOUT-012",
+      "title_fr": "Ratio cases - cohérence",
+      "title_vi": "Tỷ lệ ô - nhất quán",
+      "title_en": "Case ratio - consistency",
+      "type": "layout",
+      "severity": "minor",
+      "scope": "grille",
+      "check_method": "gpt",
+      "constraint": {
+        "ratio_consistent": true,
+        "tolerance": 0.1
+      },
+      "source": {
+        "page": 36,
+        "quote": "Ratio cases cohérent"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Ratio cases - cohérence"
+    },
+    {
+      "rule_id": "HR-LAYOUT-013",
+      "title_fr": "Flaps - contenu exclu zone pliure",
+      "title_vi": "Flaps - nội dung ngoài vùng gấp",
+      "title_en": "Flaps - content excluded from fold zone",
+      "type": "layout",
+      "severity": "blocker",
+      "scope": "flaps",
+      "check_method": "gpt",
+      "constraint": {
+        "exclude_from_fold_zone_mm": 7.5
+      },
+      "source": {
+        "page": 64,
+        "quote": "Flaps hors zone pliure"
+      },
+      "applicable_to": [
+        "background"
+      ],
+      "title": "Flaps - contenu exclu zone pliure"
+    },
+    {
+      "rule_id": "HR-LAYOUT-014",
+      "title_fr": "Hiérarchie visuelle - prix dominant",
+      "title_vi": "Thứ bậc thị giác - giá nổi bật",
+      "title_en": "Visual hierarchy - dominant price",
+      "type": "layout",
+      "severity": "major",
+      "scope": "case_produit",
+      "check_method": "gpt",
+      "constraint": {
+        "price_most_visible": true,
+        "size_hierarchy": true
+      },
+      "source": {
+        "page": 151,
+        "quote": "Prix élément le plus visible"
+      },
+      "applicable_to": [
+        "price_main",
+        "product_name"
+      ],
+      "title": "Hiérarchie visuelle - prix dominant"
+    },
+    {
+      "rule_id": "HR-LAYOUT-015",
+      "title_fr": "Pas de texte dans zone pliure",
+      "title_vi": "Không chữ trong vùng gấp",
+      "title_en": "No text in fold zone",
+      "type": "layout",
+      "severity": "blocker",
+      "scope": "pliure",
+      "check_method": "gpt",
+      "constraint": {
+        "no_text_in_mm": 7.5
+      },
+      "source": {
+        "page": 31,
+        "quote": "Aucun texte zone pliure 7,5mm"
+      },
+      "applicable_to": [
+        "product_name",
+        "price_main",
+        "promo_badge"
+      ],
+      "title": "Pas de texte dans zone pliure"
+    },
+    {
+      "rule_id": "HR-TYPO-001",
+      "title_fr": "Tiêu đề - in đậm",
+      "title_vi": "Tiêu đề - in đậm",
+      "title_en": "Title - bold",
+      "type": "typography",
+      "severity": "major",
+      "scope": "titre",
+      "check_method": "gpt",
+      "constraint": {
+        "bold_required": true
+      },
+      "source": {
+        "page": 33,
+        "quote": "Titres en gras"
+      },
+      "applicable_to": [
+        "product_name",
+        "price_main",
+        "promo_badge"
+      ],
+      "title": "Tiêu đề - in đậm"
+    }
+  ]
+}

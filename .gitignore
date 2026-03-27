@@ -1,0 +1,29 @@
+# AI Models (Large files)
+models/
+*.pt
+training/
+# Data and Workspaces
+sessions/
+output/
+pdfs_a/
+bbox/
+id/
+runs/
+poppler-25.11.0/
+# Environment and Secrets
+.env
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS files
+.DS_Store
+Thumbs.db
+bao_cao.txt
+_x.txt

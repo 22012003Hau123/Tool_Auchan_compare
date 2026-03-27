@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <script>(function(){var t=localStorage.getItem('pdf_tool_theme')||'light';document.documentElement.setAttribute('data-theme',t);})();</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode 2 - So sánh PDF Annotations</title>
+    <meta name="description" content="Kiểm tra popup annotations đã được thực thi trong PDF final bằng OpenAI Vision">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/mode2/style.css">
+</head>
+<body>
+    <div class="mode2-container">
+        <header class="app-header mode2-header">
+            <h1 id="header-title">Công cụ so sánh PDF</h1>
+            <p class="mode2-desc" id="header-desc">Upload PDF Reference (có annotations) và PDF Final. AI sẽ kiểm tra annotations đã được thực thi.</p>
+            <div class="mode-switch-tabs">
+                <a class="mode-tab" href="/">Mode 1</a>
+                <a class="mode-tab active" href="/mode2">Mode 2</a>
+                <a class="mode-tab" href="/mode3">Mode 3</a>
+            </div>
+            <div class="header-controls">
+                <button class="theme-toggle" id="theme-toggle" title="Đổi sáng/tối">
+                    <span class="theme-icon theme-sun">○</span>
+                    <span class="theme-icon theme-moon">☾</span>
+                </button>
+                <div class="lang-switcher">
+                    <button class="lang-btn" data-lang="vi">VN</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="fr">FR</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="mode2-upload">
+            <div class="mode2-upload-group">
+                <label id="label-ref">PDF Reference (có popup/annotations)</label>
+                <input type="file" id="refPdf" accept=".pdf" />
+                <div class="mode2-preview-wrap"><iframe id="previewRef" title="Preview Reference PDF" src="about:blank"></iframe></div>
+            </div>
+            <div class="mode2-upload-group">
+                <label id="label-final">PDF Final</label>
+                <input type="file" id="finalPdf" accept=".pdf" />
+                <div class="mode2-preview-wrap"><iframe id="previewFinal" title="Preview Final PDF" src="about:blank"></iframe></div>
+            </div>
+        </section>
+
+        <section class="mode2-actions">
+            <button type="button" id="btnCompare" class="mode2-btn" disabled data-i18n="btnCompare">Chạy so sánh</button>
+        </section>
+
+        <section class="mode2-status" id="status" hidden><span id="statusText"></span></section>
+
+        <section class="mode2-result" id="result" hidden>
+            <h2 id="results-title">Kết quả</h2>
+            <div class="mode2-summary" id="summary"></div>
+            <div class="mode2-links">
+                <a id="linkView" href="#" target="_blank" rel="noopener">Mở tab mới</a>
+                <a id="linkDownload" href="#" download>Tải PDF</a>
+            </div>
+            <div class="mode2-pdf-view">
+                <h3 id="view-pdf">Xem PDF</h3>
+                <iframe id="pdfViewer" title="PDF kết quả" src="about:blank"></iframe>
+            </div>
+        </section>
+
+        <section class="mode2-error" id="error" hidden><p id="errorText"></p></section>
+    </div>
+    <script src="/static/i18n-shared.js"></script>
+    <script src="/static/mode2/app.js"></script>
+</body>
+</html>

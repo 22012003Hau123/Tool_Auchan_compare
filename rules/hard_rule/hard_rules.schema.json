@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Auchan Hard Rules Schema",
+  "type": "object",
+  "required": ["metadata", "rules"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["charte_name", "charte_version", "language", "generated_at", "coverage"],
+      "properties": {
+        "charte_name": { "type": "string" },
+        "charte_version": { "type": "string" },
+        "language": { "type": "string" },
+        "generated_at": { "type": "string" },
+        "coverage": {
+          "type": "object",
+          "required": ["total_hard_rules", "status"],
+          "properties": {
+            "total_hard_rules": { "type": "integer", "minimum": 0 },
+            "status": { "type": "string", "enum": ["draft", "reviewed", "approved"] }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "rule_id",
+          "title",
+          "type",
+          "severity",
+          "scope",
+          "constraint",
+          "source"
+        ],
+        "properties": {
+          "rule_id": { "type": "string" },
+          "title": { "type": "string" },
+          "type": {
+            "type": "string",
+            "enum": ["color", "typography", "spacing", "position", "dimension", "forbidden_effect", "content", "layout"]
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["blocker", "major", "minor"]
+          },
+          "scope": { "type": "string" },
+          "constraint": { "type": "object" },
+          "source": {
+            "type": "object",
+            "required": ["page", "quote"],
+            "properties": {
+              "page": { "type": "integer", "minimum": 1 },
+              "quote": { "type": "string" }
+            }
+          },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

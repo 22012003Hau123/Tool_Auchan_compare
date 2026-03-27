@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    container_name: pdf_compare_tool
+    ports:
+      - "8502:8502" # Host 8502 -> Container 8502 (uvicorn)
+    volumes:
+      - .:/app # Mount thư mục hiện tại vào /app để dữ liệu (output, bbox...) được lưu lại trên host
+    env_file:
+      - .env # Load biến môi trường từ file .env (API keys)
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
